@@ -17,6 +17,8 @@ public class Utils {
         Utils.properties = properties;
     }
 
+    /**
+     * Show the message referenced from properties file */
     public static void print(String key, Object... params) {
         String message = "";
         if (params != null) {
@@ -27,6 +29,8 @@ public class Utils {
         System.out.println(message);
     }
 
+    /**
+     * Get the right path for temp files to delete */
     public static String getRelevantPath(String path) {
 
         if (!path.contains("standalone")
@@ -39,6 +43,8 @@ public class Utils {
         return path;
     }
 
+    /**
+     * Check the path is correct or not */
     public static boolean isCorrectPath(String path) {
 
         return path.contains("standalone")
