@@ -4,7 +4,7 @@ DeleteDeployedFiles is a Java console app for deleting deployed WAR and temp fil
 
 ## Installation
 
-Download the [JAR file](https://pip.pypa.io/en/stable/) and run it from terminal. From downloaded directory, run the below command.
+Download the [JAR file](https://github.com/YeMin-dev/DeleteDeployedFiles/releases/tag/v1.0.0) and run it in terminal. From the downloaded JAR directory, run the below command.
 JBOSS_PATH can be the root folder of Jboss directory.
 
 ```bash
