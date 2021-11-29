@@ -15,6 +15,9 @@ public class Loader {
 
         // Load properties
         properties.load(inputStream);
+        assert inputStream != null;
+        inputStream.close();
+
         return properties;
     }
 }
